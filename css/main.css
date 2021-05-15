@@ -1,0 +1,35 @@
+
+@media (min-width: 0px) {  /*Extra Small Screen Size*/
+    body{
+        background-color: #f0f0f0;
+    }
+    .backGround{
+        margin-top: 39px;
+        height: 60px;
+        width: 100%;
+        background-color: #ffffff;
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+    nav:nth-of-type(*){
+        justify-self: flex-start;
+    }
+    .m-auto>img{
+        height: 105px;
+        margin-top: 1em;
+    }
+}
+@media (min-width: 576px){ /* Small Screen Size*/
+
+}
+@media (min-width: 768px){ /*Medium Screen Size*/
+
+}
+@media (min-width: 992px){  /*Large Screen Size*/
+
+}
+@media (min-width: 1200px){  /*Extra Large Screen Size*/
+
+}
