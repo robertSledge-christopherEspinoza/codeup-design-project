@@ -10,13 +10,18 @@
         background-color: #ffffff;
     }
     .row{
+        position: relative;
         display: flex;
         flex-direction: column;
     }
-    nav:nth-of-type(*){
-        justify-self: flex-start;
+    nav{
+        margin: 1.5rem auto;
     }
-    .m-auto>img{
+    img{
+        position: absolute;
+        top: 0;
+        left: 50%;
+        margin-left: -52.5px;
         height: 105px;
         margin-top: 1em;
     }
