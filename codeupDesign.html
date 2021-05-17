@@ -13,13 +13,13 @@
         <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
     </head>
     <body>
-        <header class="m-auto text-center">
+        <div class="backGround">
+        </div>
+        <header class="text-center">
             <div class="row">
-                <div class="backGround">
-                </div>
-                <img src="assets/logo.png" alt="Logo">
-                <nav>
-                    <p>codeup design</p>
+                <img class="logo" src="assets/logo.png" alt="Logo">
+                <p class="col-12">codeup design</p>
+                <nav class="col-12">
                     <ul>
                         <li class="nav-list">
                             <a href="#">SERVICES</a>
@@ -40,21 +40,35 @@
         <section class="text-center">
             <h1>VISUAL DESIGN & WEB DEVELOPMENT</h1>
             <h2>FROM PARK CITY, UTAH</h2>
-            <div class="container">
-                <div class="circle-border">
-                    <div class="circle" id="red-circle"><h1>DESIGN</h1></div>
+            <div class="row mx-1 px-0">
+                <div class="col-6">
+                    <div id="red-circle" class="p-1 circle-border">
+                        DESIGN
+                    </div>
                 </div>
-                <div class="circle-border">
-                    <div class="circle" id="orange-circle"><h1>DEVELOP</h1></div>
+                <div class="col-6">
+                    <div id="orange-circle" class="p-1 circle-border">
+                        DEVELOP
+                    </div>
                 </div>
-                <div class="circle-border">
-                    <div class="circle" id="green-circle"><h1>SUPPORT</h1></div>
+                <div class="col-6">
+                    <div id="green-circle" class="p-1 circle-border">
+                        SUPPORT
+                    </div>
                 </div>
-                <div class="circle-border">
-                    <div class="circle" id="blue-circle"><h1>HOST</h1></div>
+                <div class="col-6">
+                    <div id="blue-circle" class="p-1 circle-border">
+                        HOST
+                    </div>
                 </div>
             </div>
         </section>
+        <div>
+            <p>SELECTED WORK</p>
+            <div class="card">
+                <img src="assets/images/logo.png" alt="Logo">
+            </div>
+        </div>
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
                 integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
                 crossorigin="anonymous"></script>
