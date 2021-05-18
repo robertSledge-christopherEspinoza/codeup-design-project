@@ -53,6 +53,9 @@ body{
         margin: 1em 0;
         border-radius: 50%;
         border: 5px solid #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .red-circle{
         background-color: #e6563b
