@@ -9,18 +9,21 @@
               integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
               crossorigin="anonymous">
         <link rel="stylesheet" href="css/main.css" type="text/css">
-        <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap"
+              rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap"
+              rel="stylesheet">
     </head>
     <body>
         <div class="backGround">
         </div>
         <header class="text-center">
             <div class="row">
-                <img class="logo" src="assets/logo.png" alt="Logo">
-                <p class="col-12">codeup design</p>
-                <nav class="col-12">
-                    <ul>
+                <img class="logo" src="assets/logo.png"
+                     alt="Logo">
+                <p class="col-12 col-md-4">codeup design</p>
+                <nav class="col-12 col-md-6">
+                    <ul class="offset-md-4">
                         <li class="nav-list">
                             <a href="#">SERVICES</a>
                         </li>
@@ -41,34 +44,92 @@
             <h1>VISUAL DESIGN & WEB DEVELOPMENT</h1>
             <h2>FROM PARK CITY, UTAH</h2>
             <div class="row mx-1 px-0">
-                <div class="col-6">
-                    <div id="red-circle" class="p-1 circle-border">
-                        DESIGN
+                <div class="col-6 col-md-3">
+                    <div class="p-1 circle-border red-circle">
+                        <h4>DESIGN</h4>
                     </div>
                 </div>
-                <div class="col-6">
-                    <div id="orange-circle" class="p-1 circle-border">
-                        DEVELOP
+                <div class="col-6 col-md-3">
+                    <div class="p-1 circle-border orange-circle">
+                        <h4>DEVELOP</h4>
                     </div>
                 </div>
-                <div class="col-6">
-                    <div id="green-circle" class="p-1 circle-border">
-                        SUPPORT
+                <div class="col-6 col-md-3">
+                    <div class="p-1 circle-border green-circle">
+                        <h4>SUPPORT</h4>
                     </div>
                 </div>
-                <div class="col-6">
-                    <div id="blue-circle" class="p-1 circle-border">
-                        HOST
+                <div class="col-6 col-md-3">
+                    <div class="p-1 circle-border blue-circle">
+                        <h4>HOST</h4>
                     </div>
                 </div>
             </div>
         </section>
-        <div>
-            <p>SELECTED WORK</p>
-            <div class="card">
-                <img src="assets/images/logo.png" alt="Logo">
+        <section class="row">
+            <div class="col-md-8">
+                <p>SELECTED WORK</p>
+                <div class="row">
+                    <div class="card col-md-5">
+                        <img src="assets/images/apple-ipad.jpg" alt="Apple i-Pad">
+                        <div class="row">
+                            <p>Featured Products</p>
+                            <div class="col-.75 offset-1 red-circle">D</div>
+                            <div class="col-.75 orange-circle">D</div>
+                            <div class="col-.75 green-circle">S</div>
+                            <div class="col-.75 blue-circle">H</div>
+                        </div>
+                    </div>
+                    <div class="card col-md-5 offset-1">
+                        <img src="assets/images/macbook.jpg" alt="MacBook">
+                        <div class="row">
+                            <p class="card-title col-3">Featured Products</p>
+                            <div class="col-1 red-circle">D</div>
+                            <div class="col-1 orange-circle">D</div>
+                            <div class="col-1 green-circle">S</div>
+                            <div class="col-1 blue-circle">H</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="card col-md-4">
+                        <img src="assets/images/man.jpg" alt="Man's Head">
+                        <div class="row">
+                            <p class="card-title col-3">Featured Products</p>
+                            <div class="col-2 red-circle">D</div>
+                            <div class="col-2 orange-circle">D</div>
+                            <div class="col-2 green-circle">S</div>
+                            <div class="col-2 blue-circle">H</div>
+                        </div>
+                    </div>
+                    <div class="card col-md-4 offset-2">
+                        <img src="assets/images/security.jpg" alt="Security Png">
+                        <div class="row">
+                            <p class="card-title col-3">Featured Products</p>
+                            <div class="col-2 red-circle">D</div>
+                            <div class="col-2 orange-circle">D</div>
+                            <div class="col-2 green-circle">S</div>
+                            <div class="col-2 blue-circle">H</div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
+            <div class="col-md-3">
+                <p>The Last</p>
+                <div class="card">
+                    <img src="assets/images/mobile-phone.jpg">
+                    THE ADMIN BAR AND ABSOLUTE POSITIONING
+                </div>
+                <div class="card">
+                    <img src="assets/images/head.jpg">
+                    NIBBLER AWESOME WEBSITE TESTING
+                </div>
+                <div class="card">
+                    <img src="assets/images/ipad.jpg">
+                    HOW TO GET GOOGLE TO LIKE YOU
+                </div>
+            </div>
+        </section>
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
                 integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
                 crossorigin="anonymous"></script>
