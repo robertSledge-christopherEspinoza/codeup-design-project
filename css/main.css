@@ -1,5 +1,17 @@
+body{
+    font-family: 'Abel', sans-serif;
+    background-color: #f0f0f0;
+}
 h1,h2,h3,h4,h5{
     font-family: 'Anton', sans-serif;
+}
+.logo{
+    height: 105px;
+    width: 105px;
+}
+body{
+    font-family: 'Abel', sans-serif;
+    background-color: #f0f0f0;
 }
 @media (min-width: 0px) {  /*Extra Small Screen Size*/
     body{
@@ -7,21 +19,16 @@ h1,h2,h3,h4,h5{
         background-color: #f0f0f0;
     }
     .backGround{
+        z-index: 0;
         margin-top: 39px;
         height: 60px;
-        width: 100%;
         background-color: #ffffff;
     }
-    .row{
-        position: relative;
-        display: flex;
-        flex-direction: column;
+    header{
+        z-index: 1;
     }
-    nav>p{
+    p.col-12.col-md-4{
         font-size: 2.5em;
-    }
-    nav{
-        margin: 1.5rem auto;
     }
     ul{
         display: flex;
@@ -31,14 +38,6 @@ h1,h2,h3,h4,h5{
     li{
         padding: .5em;
     }
-    img{
-        position: absolute;
-        top: 0;
-        left: 50%;
-        margin-left: -52.5px;
-        height: 105px;
-        margin-top: 1em;
-    }
     .nav-list>a{
         color: #000000;
     }
@@ -46,52 +45,43 @@ h1,h2,h3,h4,h5{
         font-size: 3.5em;
         margin-bottom: 1em;
     }
-    .container{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
     .circle-border{
-        margin: 1em;
-        padding: 1em;
+        font-size: 2em;
+        width: 105px;
+        height: 105px;
+        color: #ffffff;
+        margin: 1em 0;
         border-radius: 50%;
-        background-color: #ffffff;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        border: 5px solid #ffffff;
     }
-    .circle{
-        display: flex;
-        justify-content: center;
-        height: 150px;
-        width: 150px;
-        border-radius: 50%;
-    }
-    #red-circle{
+    .red-circle{
         background-color: #e6563b
     }
-    #orange-circle{
+    .orange-circle{
         background-color: #EB9D3A;
     }
-    #green-circle{
+    .green-circle{
         background-color: #7cb06c;
     }
-    #blue-circle{
+    .blue-circle{
         background-color: #00aba9;
-    }
-    .circle>h1{
-        color: #ffffff;
-        align-self: center;
     }
 }
 @media (min-width: 576px){ /* Small Screen Size*/
-
+    .card{
+        word-wrap: unset;
+    }
+    .card-title{
+        font-size: 1em;
+    }
+    .card>.row>div{
+        height: 18px;
+        border-radius: 100%;
+    }
 }
 @media (min-width: 768px){ /*Medium Screen Size*/
-
 }
 @media (min-width: 992px){  /*Large Screen Size*/
-
 }
 @media (min-width: 1200px){  /*Extra Large Screen Size*/
-
+}
