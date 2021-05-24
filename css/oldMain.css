@@ -5,15 +5,17 @@ body{
 h1,h2,h3,h4,h5,h6{
     font-family: 'Anton', sans-serif;
 }
-@media (min-width: 0px) {  /*Extra Small Screen Size*/
-    .background{
-        margin-top: 39px;
-        height: 60px;
-        background-color: #ffffff;
-    }
+.background{
+    margin-top: 39px;
+    height: 60px;
+    background-color: #ffffff;
+}
+.img>img{
+    height: 105px;
+    width: 105px;
+}
+@media (min-width: 0px) and (max-width: 575px){  /*Extra Small Screen Size*/
     .img>img{
-        height: 105px;
-        width: 105px;
         position: absolute;
         top: 0;
         left: 50%;
@@ -83,21 +85,37 @@ h1,h2,h3,h4,h5,h6{
     .product-image{
         padding: 0;
     }
-    .card-footer{
+    .card-body{
+        padding: .2rem 1rem;
         background-color: #f0f0f0;
     }
-    .card-footer>p{
+    .card-body>p{
         margin: 0;
+        padding: 0;
+        text-align: left;
+    }
+    .bdg-section{
+        padding-right: 0;
+        text-align: right;
     }
     .small-circle{
         border-radius: 50%;
         height: 18px;
         width: 18px;
+        margin: 2px;
+    }
+    #card-2{
+        display:none;
+    }
+    #card-3{
+        display:none;
+    }
+    #card-4{
+        display:none;
     }
 }
 @media (min-width: 576px){ /* Small Screen Size*/
 
-}
 @media (min-width: 768px) {  /*Medium Screen Size*/
 
 }
