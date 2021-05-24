@@ -1,93 +1,104 @@
-h1,h2,h3,h4,h5{
+body{
+    font-family: 'Abel', sans-serif;
+    background-color: #f0f0f0;
+}
+h1,h2,h3,h4,h5,h6{
     font-family: 'Anton', sans-serif;
 }
 @media (min-width: 0px) {  /*Extra Small Screen Size*/
-    body{
-        font-family: 'Abel', sans-serif;
-        background-color: #f0f0f0;
-    }
-    .backGround{
+    .background{
         margin-top: 39px;
         height: 60px;
-        width: 100%;
         background-color: #ffffff;
     }
-    .row{
-        position: relative;
-        display: flex;
-        flex-direction: column;
-    }
-    nav>p{
-        font-size: 2.5em;
-    }
-    nav{
-        margin: 1.5rem auto;
-    }
-    ul{
-        display: flex;
-        list-style: none;
-        padding: 0;
-    }
-    li{
-        padding: .5em;
-    }
-    img{
+    .img>img{
+        height: 105px;
+        width: 105px;
         position: absolute;
         top: 0;
         left: 50%;
         margin-left: -52.5px;
-        height: 105px;
         margin-top: 1em;
     }
+    .header{
+        margin-top: 1rem;
+    }
+    .header>p{
+        font-size: 2.5em;
+    }
+    .header>ul{
+        list-style: none;
+        padding: 0;
+    }
+    ul>li{
+        padding: .5em;
+        display: inline-block;
+    }
     .nav-list>a{
+        font-size: .9em;
         color: #000000;
     }
     section>h1{
-        font-size: 3.5em;
-        margin-bottom: 1em;
+        margin: 1em .25em;
     }
-    .container{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
+    #circle-container{
+        margin: 2em 0;
     }
-    .circle-border{
-        margin: 1em;
-        padding: 1em;
+    .red-circle{
+        background-color: #e6563b;
+    }
+    .orange-circle{
+        background-color: #EB9D3A;
+    }
+    .green-circle{
+        background-color: #7cb06c;
+    }
+    .blue-circle{
+        background-color: #00aba9;
+    }
+    .large-circle{
+        width: 105px;
+        height: 105px;
+        color: #ffffff;
+        margin: 1em auto;
         border-radius: 50%;
-        background-color: #ffffff;
+        border: 5px solid #ffffff;
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    .circle{
-        display: flex;
-        justify-content: center;
-        height: 150px;
-        width: 150px;
-        border-radius: 50%;
-    }
-    #red-circle{
-        background-color: #e6563b
-    }
-    #orange-circle{
-        background-color: #EB9D3A;
-    }
-    #green-circle{
-        background-color: #7cb06c;
-    }
-    #blue-circle{
-        background-color: #00aba9;
-    }
-    .circle>h1{
+    .large-circle>h4{
+        margin: 0;
         color: #ffffff;
-        align-self: center;
+    }
+    .card{
+        border: none;
+        margin: 2em 2em;
+    }
+    .card>.card-img{
+        background-color: #e6e6e6;
+        margin: 0;
+        padding: 5px;
+    }
+    .product-image{
+        padding: 0;
+    }
+    .card-footer{
+        background-color: #f0f0f0;
+    }
+    .card-footer>p{
+        margin: 0;
+    }
+    .small-circle{
+        border-radius: 50%;
+        height: 18px;
+        width: 18px;
     }
 }
 @media (min-width: 576px){ /* Small Screen Size*/
 
 }
-@media (min-width: 768px){ /*Medium Screen Size*/
+@media (min-width: 768px) {  /*Medium Screen Size*/
 
 }
 @media (min-width: 992px){  /*Large Screen Size*/
